@@ -1,2 +1,33 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import CodeReview from '@/page-parts/code-review.svelte';
+	import Intro from '@/page-parts/intro.svelte';
+</script>
+
+<section id="intro">
+	<Intro />
+</section>
+<hr />
+<section id="code-review">
+	<CodeReview />
+</section>
+<hr />
+<section id="cat-1">
+	<p>Cat 1</p>
+	<Intro />
+</section>
+<hr />
+<section id="cat-2">
+	<p>Cat 2</p>
+	<Intro />
+</section>
+<hr />
+<section id="cat-3">
+	<p>Cat 3</p>
+	<Intro />
+</section>
+
+<style>
+	section {
+		padding: 0.5rem;
+	}
+</style>
