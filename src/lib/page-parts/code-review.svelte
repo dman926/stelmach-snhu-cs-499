@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
+<h1 class="text-2xl text-center">Overall Code Review</h1>
 <div class="rounded-xl border-2 border-white overflow-hidden w-fit m-auto">
 	<!-- svelte-ignore a11y-media-has-caption -->
 	<video width="1128" height="752" controls>

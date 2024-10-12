@@ -1,4 +1,6 @@
 <!-- TODO -->
+<h1 class="text-2xl text-center">Algorithms and Data Structures</h1>
+<h2 class="text-xl text-center">Artifact 2: Embedded Thermostat</h2>
 <p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate augue enim, facilisis
 	interdum orci vulputate in. Donec ornare sed libero nec scelerisque. Aenean varius lacus a mauris
