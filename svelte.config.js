@@ -10,7 +10,6 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			assets: process.env.NODE_ENV === 'production' ? 'https:///stelmach-snhu-cs-499' : '',
 			base: process.env.NODE_ENV === 'production' ? '/stelmach-snhu-cs-499' : ''
 		},
 		alias: {

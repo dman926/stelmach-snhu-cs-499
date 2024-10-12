@@ -41,7 +41,7 @@ jobs:
         with:
           static_site_generator: 'sveltekit'
 
-      - name: Build`
+      - name: Build
         run: pnpm build
 
       - name: Upload artifact
