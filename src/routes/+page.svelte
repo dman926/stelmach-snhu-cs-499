@@ -37,6 +37,15 @@
 		<Artifact_3 />
 	{/await}
 </section>
+<section id="footer">
+	<p class="text-center">
+		<a
+			class="underline-hover text-2xl font-bold"
+			href="https://github.com/dman926/stelmach-snhu-cs-499/"
+			>Check out the source code for this web portfolio here</a
+		>
+	</p>
+</section>
 
 <style>
 	section {
