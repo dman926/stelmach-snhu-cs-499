@@ -1,0 +1,2342 @@
+{
+  "animal-shelter": {
+    "name": "animal-shelter",
+    "path": "animal-shelter",
+    "children": {
+      "enhanced": {
+        "name": "enhanced",
+        "path": "animal-shelter/enhanced",
+        "children": {
+          "README.md": {
+            "name": "README.md",
+            "path": "animal-shelter/enhanced/README.md",
+            "language": "markdown",
+            "children": {}
+          },
+          "app": {
+            "name": "app",
+            "path": "animal-shelter/enhanced/app",
+            "language": null,
+            "children": {
+              "__init__.py": {
+                "name": "__init__.py",
+                "path": "animal-shelter/enhanced/app/__init__.py",
+                "language": "python",
+                "children": {}
+              },
+              "auth.py": {
+                "name": "auth.py",
+                "path": "animal-shelter/enhanced/app/auth.py",
+                "language": "python",
+                "children": {}
+              },
+              "crud.py": {
+                "name": "crud.py",
+                "path": "animal-shelter/enhanced/app/crud.py",
+                "language": "python",
+                "children": {}
+              },
+              "forms.py": {
+                "name": "forms.py",
+                "path": "animal-shelter/enhanced/app/forms.py",
+                "language": "python",
+                "children": {}
+              },
+              "models.py": {
+                "name": "models.py",
+                "path": "animal-shelter/enhanced/app/models.py",
+                "language": "python",
+                "children": {}
+              },
+              "routes.py": {
+                "name": "routes.py",
+                "path": "animal-shelter/enhanced/app/routes.py",
+                "language": "python",
+                "children": {}
+              }
+            }
+          },
+          "config": {
+            "name": "config",
+            "path": "animal-shelter/enhanced/config",
+            "language": null,
+            "children": {
+              "__init__.py": {
+                "name": "__init__.py",
+                "path": "animal-shelter/enhanced/config/__init__.py",
+                "language": "python",
+                "children": {}
+              },
+              "config.py": {
+                "name": "config.py",
+                "path": "animal-shelter/enhanced/config/config.py",
+                "language": "python",
+                "children": {}
+              }
+            }
+          },
+          "instance": {
+            "name": "instance",
+            "path": "animal-shelter/enhanced/instance",
+            "language": null,
+            "children": {
+              "animals.db": {
+                "name": "animals.db",
+                "path": "animal-shelter/enhanced/instance/animals.db",
+                "language": null,
+                "children": {}
+              }
+            }
+          },
+          "pyproject.toml": {
+            "name": "pyproject.toml",
+            "path": "animal-shelter/enhanced/pyproject.toml",
+            "language": null,
+            "children": {}
+          },
+          "run.py": {
+            "name": "run.py",
+            "path": "animal-shelter/enhanced/run.py",
+            "language": "python",
+            "children": {}
+          },
+          "static": {
+            "name": "static",
+            "path": "animal-shelter/enhanced/static",
+            "language": null,
+            "children": {
+              "js": {
+                "name": "js",
+                "path": "animal-shelter/enhanced/static/js",
+                "language": null,
+                "children": {
+                  "map.js": {
+                    "name": "map.js",
+                    "path": "animal-shelter/enhanced/static/js/map.js",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              }
+            }
+          },
+          "templates": {
+            "name": "templates",
+            "path": "animal-shelter/enhanced/templates",
+            "language": null,
+            "children": {
+              "admin.html": {
+                "name": "admin.html",
+                "path": "animal-shelter/enhanced/templates/admin.html",
+                "language": "markup",
+                "children": {}
+              },
+              "base.html": {
+                "name": "base.html",
+                "path": "animal-shelter/enhanced/templates/base.html",
+                "language": "markup",
+                "children": {}
+              },
+              "index.html": {
+                "name": "index.html",
+                "path": "animal-shelter/enhanced/templates/index.html",
+                "language": "markup",
+                "children": {}
+              },
+              "login.html": {
+                "name": "login.html",
+                "path": "animal-shelter/enhanced/templates/login.html",
+                "language": "markup",
+                "children": {}
+              }
+            }
+          }
+        }
+      },
+      "original": {
+        "name": "original",
+        "path": "animal-shelter/original",
+        "children": {
+          "ProjectTwoDashboard.py": {
+            "name": "ProjectTwoDashboard.py",
+            "path": "animal-shelter/original/ProjectTwoDashboard.py",
+            "language": "python",
+            "children": {}
+          },
+          "animal_shelter.py": {
+            "name": "animal_shelter.py",
+            "path": "animal-shelter/original/animal_shelter.py",
+            "language": "python",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "embedded-thermostat": {
+    "name": "embedded-thermostat",
+    "path": "embedded-thermostat",
+    "children": {
+      "enhanced": {
+        "name": "enhanced",
+        "path": "embedded-thermostat/enhanced",
+        "children": {
+          "Stelmach_CC3220S_Thermostat_v2.c": {
+            "name": "Stelmach_CC3220S_Thermostat_v2.c",
+            "path": "embedded-thermostat/enhanced/Stelmach_CC3220S_Thermostat_v2.c",
+            "language": "c",
+            "children": {}
+          }
+        }
+      },
+      "original": {
+        "name": "original",
+        "path": "embedded-thermostat/original",
+        "children": {
+          "Stelmach_CC3220S_Thermostat_v1.c": {
+            "name": "Stelmach_CC3220S_Thermostat_v1.c",
+            "path": "embedded-thermostat/original/Stelmach_CC3220S_Thermostat_v1.c",
+            "language": "c",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "travlr": {
+    "name": "travlr",
+    "path": "travlr",
+    "children": {
+      "enhanced": {
+        "name": "enhanced",
+        "path": "travlr/enhanced",
+        "children": {
+          "README.md": {
+            "name": "README.md",
+            "path": "travlr/enhanced/README.md",
+            "language": "markdown",
+            "children": {}
+          },
+          "app.cjs": {
+            "name": "app.cjs",
+            "path": "travlr/enhanced/app.cjs",
+            "language": "javascript",
+            "children": {}
+          },
+          "app_admin": {
+            "name": "app_admin",
+            "path": "travlr/enhanced/app_admin",
+            "language": null,
+            "children": {
+              ".editorconfig": {
+                "name": ".editorconfig",
+                "path": "travlr/enhanced/app_admin/.editorconfig",
+                "language": null,
+                "children": {}
+              },
+              ".gitignore": {
+                "name": ".gitignore",
+                "path": "travlr/enhanced/app_admin/.gitignore",
+                "language": null,
+                "children": {}
+              },
+              ".vscode": {
+                "name": ".vscode",
+                "path": "travlr/enhanced/app_admin/.vscode",
+                "language": null,
+                "children": {
+                  "extensions.json": {
+                    "name": "extensions.json",
+                    "path": "travlr/enhanced/app_admin/.vscode/extensions.json",
+                    "language": "json",
+                    "children": {}
+                  },
+                  "launch.json": {
+                    "name": "launch.json",
+                    "path": "travlr/enhanced/app_admin/.vscode/launch.json",
+                    "language": "json",
+                    "children": {}
+                  },
+                  "tasks.json": {
+                    "name": "tasks.json",
+                    "path": "travlr/enhanced/app_admin/.vscode/tasks.json",
+                    "language": "json",
+                    "children": {}
+                  }
+                }
+              },
+              "README.md": {
+                "name": "README.md",
+                "path": "travlr/enhanced/app_admin/README.md",
+                "language": "markdown",
+                "children": {}
+              },
+              "angular.json": {
+                "name": "angular.json",
+                "path": "travlr/enhanced/app_admin/angular.json",
+                "language": "json",
+                "children": {}
+              },
+              "package-lock.json": {
+                "name": "package-lock.json",
+                "path": "travlr/enhanced/app_admin/package-lock.json",
+                "language": "json",
+                "children": {}
+              },
+              "package.json": {
+                "name": "package.json",
+                "path": "travlr/enhanced/app_admin/package.json",
+                "language": "json",
+                "children": {}
+              },
+              "public": {
+                "name": "public",
+                "path": "travlr/enhanced/app_admin/public",
+                "language": null,
+                "children": {
+                  "favicon.ico": {
+                    "name": "favicon.ico",
+                    "path": "travlr/enhanced/app_admin/public/favicon.ico",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              },
+              "src": {
+                "name": "src",
+                "path": "travlr/enhanced/app_admin/src",
+                "language": null,
+                "children": {
+                  "app": {
+                    "name": "app",
+                    "path": "travlr/enhanced/app_admin/src/app",
+                    "language": null,
+                    "children": {
+                      "add-trip": {
+                        "name": "add-trip",
+                        "path": "travlr/enhanced/app_admin/src/app/add-trip",
+                        "language": null,
+                        "children": {
+                          "add-trip.component.css": {
+                            "name": "add-trip.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/add-trip/add-trip.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "add-trip.component.html": {
+                            "name": "add-trip.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/add-trip/add-trip.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "add-trip.component.ts": {
+                            "name": "add-trip.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/add-trip/add-trip.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "app.component.css": {
+                        "name": "app.component.css",
+                        "path": "travlr/enhanced/app_admin/src/app/app.component.css",
+                        "language": "scss",
+                        "children": {}
+                      },
+                      "app.component.html": {
+                        "name": "app.component.html",
+                        "path": "travlr/enhanced/app_admin/src/app/app.component.html",
+                        "language": "markup",
+                        "children": {}
+                      },
+                      "app.component.ts": {
+                        "name": "app.component.ts",
+                        "path": "travlr/enhanced/app_admin/src/app/app.component.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "app.config.ts": {
+                        "name": "app.config.ts",
+                        "path": "travlr/enhanced/app_admin/src/app/app.config.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "app.routes.ts": {
+                        "name": "app.routes.ts",
+                        "path": "travlr/enhanced/app_admin/src/app/app.routes.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "data": {
+                        "name": "data",
+                        "path": "travlr/enhanced/app_admin/src/app/data",
+                        "language": null,
+                        "children": {
+                          "trips.ts": {
+                            "name": "trips.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/data/trips.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "edit-trip": {
+                        "name": "edit-trip",
+                        "path": "travlr/enhanced/app_admin/src/app/edit-trip",
+                        "language": null,
+                        "children": {
+                          "edit-trip.component.css": {
+                            "name": "edit-trip.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/edit-trip/edit-trip.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "edit-trip.component.html": {
+                            "name": "edit-trip.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/edit-trip/edit-trip.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "edit-trip.component.ts": {
+                            "name": "edit-trip.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/edit-trip/edit-trip.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "login": {
+                        "name": "login",
+                        "path": "travlr/enhanced/app_admin/src/app/login",
+                        "language": null,
+                        "children": {
+                          "login.component.css": {
+                            "name": "login.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/login/login.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "login.component.html": {
+                            "name": "login.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/login/login.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "login.component.ts": {
+                            "name": "login.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/login/login.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "models": {
+                        "name": "models",
+                        "path": "travlr/enhanced/app_admin/src/app/models",
+                        "language": null,
+                        "children": {
+                          "auth-response.ts": {
+                            "name": "auth-response.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/models/auth-response.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "trip.ts": {
+                            "name": "trip.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/models/trip.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "user.ts": {
+                            "name": "user.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/models/user.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "navbar": {
+                        "name": "navbar",
+                        "path": "travlr/enhanced/app_admin/src/app/navbar",
+                        "language": null,
+                        "children": {
+                          "navbar.component.css": {
+                            "name": "navbar.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/navbar/navbar.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "navbar.component.html": {
+                            "name": "navbar.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/navbar/navbar.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "navbar.component.ts": {
+                            "name": "navbar.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/navbar/navbar.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "services": {
+                        "name": "services",
+                        "path": "travlr/enhanced/app_admin/src/app/services",
+                        "language": null,
+                        "children": {
+                          "authentication.service.ts": {
+                            "name": "authentication.service.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/services/authentication.service.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "trip-data.service.ts": {
+                            "name": "trip-data.service.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/services/trip-data.service.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "storage.ts": {
+                        "name": "storage.ts",
+                        "path": "travlr/enhanced/app_admin/src/app/storage.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "trip-card": {
+                        "name": "trip-card",
+                        "path": "travlr/enhanced/app_admin/src/app/trip-card",
+                        "language": null,
+                        "children": {
+                          "trip-card.component.css": {
+                            "name": "trip-card.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-card/trip-card.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "trip-card.component.html": {
+                            "name": "trip-card.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-card/trip-card.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "trip-card.component.ts": {
+                            "name": "trip-card.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-card/trip-card.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "trip-listing": {
+                        "name": "trip-listing",
+                        "path": "travlr/enhanced/app_admin/src/app/trip-listing",
+                        "language": null,
+                        "children": {
+                          "trip-listing.component.css": {
+                            "name": "trip-listing.component.css",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-listing/trip-listing.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "trip-listing.component.html": {
+                            "name": "trip-listing.component.html",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-listing/trip-listing.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "trip-listing.component.ts": {
+                            "name": "trip-listing.component.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/trip-listing/trip-listing.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "utils": {
+                        "name": "utils",
+                        "path": "travlr/enhanced/app_admin/src/app/utils",
+                        "language": null,
+                        "children": {
+                          "jwt.interceptor.ts": {
+                            "name": "jwt.interceptor.ts",
+                            "path": "travlr/enhanced/app_admin/src/app/utils/jwt.interceptor.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "assets": {
+                    "name": "assets",
+                    "path": "travlr/enhanced/app_admin/src/assets",
+                    "language": null,
+                    "children": {
+                      "css": {
+                        "name": "css",
+                        "path": "travlr/enhanced/app_admin/src/assets/css",
+                        "language": null,
+                        "children": {
+                          "styles.css": {
+                            "name": "styles.css",
+                            "path": "travlr/enhanced/app_admin/src/assets/css/styles.css",
+                            "language": "scss",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "images": {
+                        "name": "images",
+                        "path": "travlr/enhanced/app_admin/src/assets/images",
+                        "language": null,
+                        "children": {
+                          "bg-adbox.png": {
+                            "name": "bg-adbox.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-adbox.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-body.jpg": {
+                            "name": "bg-body.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-body.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-box.png": {
+                            "name": "bg-box.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-box.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-foodDetail.png": {
+                            "name": "bg-foodDetail.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-foodDetail.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-foodInfos.png": {
+                            "name": "bg-foodInfos.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-foodInfos.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-menu.png": {
+                            "name": "bg-menu.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-menu.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-navigation.png": {
+                            "name": "bg-navigation.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-navigation.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-pattern.jpg": {
+                            "name": "bg-pattern.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/bg-pattern.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "btn-send.png": {
+                            "name": "btn-send.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/btn-send.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "buffet.jpg": {
+                            "name": "buffet.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/buffet.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "content-box.png": {
+                            "name": "content-box.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/content-box.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "deluxe.jpg": {
+                            "name": "deluxe.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/deluxe.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "desserts.jpg": {
+                            "name": "desserts.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/desserts.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "dive-site.png": {
+                            "name": "dive-site.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/dive-site.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "first-class.jpg": {
+                            "name": "first-class.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/first-class.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "food.png": {
+                            "name": "food.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/food.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "icons.png": {
+                            "name": "icons.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/icons.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "kayak.jpg": {
+                            "name": "kayak.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/kayak.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "logo.png": {
+                            "name": "logo.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/logo.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef1.jpg": {
+                            "name": "reef1.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/reef1.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef2.jpg": {
+                            "name": "reef2.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/reef2.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef3.jpg": {
+                            "name": "reef3.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/reef3.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "rooms.png": {
+                            "name": "rooms.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/rooms.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "sea-sound.jpg": {
+                            "name": "sea-sound.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/sea-sound.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "seafoods.jpg": {
+                            "name": "seafoods.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/seafoods.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "searchbar.png": {
+                            "name": "searchbar.png",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/searchbar.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "suite.jpg": {
+                            "name": "suite.jpg",
+                            "path": "travlr/enhanced/app_admin/src/assets/images/suite.jpg",
+                            "language": null,
+                            "children": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "index.html": {
+                    "name": "index.html",
+                    "path": "travlr/enhanced/app_admin/src/index.html",
+                    "language": "markup",
+                    "children": {}
+                  },
+                  "main.ts": {
+                    "name": "main.ts",
+                    "path": "travlr/enhanced/app_admin/src/main.ts",
+                    "language": "typescript",
+                    "children": {}
+                  }
+                }
+              },
+              "tsconfig.app.json": {
+                "name": "tsconfig.app.json",
+                "path": "travlr/enhanced/app_admin/tsconfig.app.json",
+                "language": "json",
+                "children": {}
+              },
+              "tsconfig.json": {
+                "name": "tsconfig.json",
+                "path": "travlr/enhanced/app_admin/tsconfig.json",
+                "language": "json",
+                "children": {}
+              },
+              "tsconfig.spec.json": {
+                "name": "tsconfig.spec.json",
+                "path": "travlr/enhanced/app_admin/tsconfig.spec.json",
+                "language": "json",
+                "children": {}
+              }
+            }
+          },
+          "app_api": {
+            "name": "app_api",
+            "path": "travlr/enhanced/app_api",
+            "language": null,
+            "children": {
+              "config": {
+                "name": "config",
+                "path": "travlr/enhanced/app_api/config",
+                "language": null,
+                "children": {
+                  "passport.cjs": {
+                    "name": "passport.cjs",
+                    "path": "travlr/enhanced/app_api/config/passport.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "controllers": {
+                "name": "controllers",
+                "path": "travlr/enhanced/app_api/controllers",
+                "language": null,
+                "children": {
+                  "authentication.cjs": {
+                    "name": "authentication.cjs",
+                    "path": "travlr/enhanced/app_api/controllers/authentication.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "trips.cjs": {
+                    "name": "trips.cjs",
+                    "path": "travlr/enhanced/app_api/controllers/trips.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "models": {
+                "name": "models",
+                "path": "travlr/enhanced/app_api/models",
+                "language": null,
+                "children": {
+                  "db.cjs": {
+                    "name": "db.cjs",
+                    "path": "travlr/enhanced/app_api/models/db.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "seed.cjs": {
+                    "name": "seed.cjs",
+                    "path": "travlr/enhanced/app_api/models/seed.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travlr.cjs": {
+                    "name": "travlr.cjs",
+                    "path": "travlr/enhanced/app_api/models/travlr.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "user.cjs": {
+                    "name": "user.cjs",
+                    "path": "travlr/enhanced/app_api/models/user.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "routes": {
+                "name": "routes",
+                "path": "travlr/enhanced/app_api/routes",
+                "language": null,
+                "children": {
+                  "index.cjs": {
+                    "name": "index.cjs",
+                    "path": "travlr/enhanced/app_api/routes/index.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              }
+            }
+          },
+          "app_server": {
+            "name": "app_server",
+            "path": "travlr/enhanced/app_server",
+            "language": null,
+            "children": {
+              "controllers": {
+                "name": "controllers",
+                "path": "travlr/enhanced/app_server/controllers",
+                "language": null,
+                "children": {
+                  "main.cjs": {
+                    "name": "main.cjs",
+                    "path": "travlr/enhanced/app_server/controllers/main.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travel.cjs": {
+                    "name": "travel.cjs",
+                    "path": "travlr/enhanced/app_server/controllers/travel.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "routes": {
+                "name": "routes",
+                "path": "travlr/enhanced/app_server/routes",
+                "language": null,
+                "children": {
+                  "index.cjs": {
+                    "name": "index.cjs",
+                    "path": "travlr/enhanced/app_server/routes/index.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travel.cjs": {
+                    "name": "travel.cjs",
+                    "path": "travlr/enhanced/app_server/routes/travel.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "users.cjs": {
+                    "name": "users.cjs",
+                    "path": "travlr/enhanced/app_server/routes/users.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "views": {
+                "name": "views",
+                "path": "travlr/enhanced/app_server/views",
+                "language": null,
+                "children": {
+                  "error.hbs": {
+                    "name": "error.hbs",
+                    "path": "travlr/enhanced/app_server/views/error.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "index.hbs": {
+                    "name": "index.hbs",
+                    "path": "travlr/enhanced/app_server/views/index.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "layout.hbs": {
+                    "name": "layout.hbs",
+                    "path": "travlr/enhanced/app_server/views/layout.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "partials": {
+                    "name": "partials",
+                    "path": "travlr/enhanced/app_server/views/partials",
+                    "language": null,
+                    "children": {
+                      "footer.hbs": {
+                        "name": "footer.hbs",
+                        "path": "travlr/enhanced/app_server/views/partials/footer.hbs",
+                        "language": null,
+                        "children": {}
+                      },
+                      "header.hbs": {
+                        "name": "header.hbs",
+                        "path": "travlr/enhanced/app_server/views/partials/header.hbs",
+                        "language": null,
+                        "children": {}
+                      }
+                    }
+                  },
+                  "travel.hbs": {
+                    "name": "travel.hbs",
+                    "path": "travlr/enhanced/app_server/views/travel.hbs",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              }
+            }
+          },
+          "bin": {
+            "name": "bin",
+            "path": "travlr/enhanced/bin",
+            "language": null,
+            "children": {
+              "www": {
+                "name": "www",
+                "path": "travlr/enhanced/bin/www",
+                "language": null,
+                "children": {}
+              }
+            }
+          },
+          "data": {
+            "name": "data",
+            "path": "travlr/enhanced/data",
+            "language": null,
+            "children": {
+              "trips.json": {
+                "name": "trips.json",
+                "path": "travlr/enhanced/data/trips.json",
+                "language": "json",
+                "children": {}
+              }
+            }
+          },
+          "docker-compose.yaml": {
+            "name": "docker-compose.yaml",
+            "path": "travlr/enhanced/docker-compose.yaml",
+            "language": null,
+            "children": {}
+          },
+          "global.d.ts": {
+            "name": "global.d.ts",
+            "path": "travlr/enhanced/global.d.ts",
+            "language": "typescript",
+            "children": {}
+          },
+          "package-lock.json": {
+            "name": "package-lock.json",
+            "path": "travlr/enhanced/package-lock.json",
+            "language": "json",
+            "children": {}
+          },
+          "package.json": {
+            "name": "package.json",
+            "path": "travlr/enhanced/package.json",
+            "language": "json",
+            "children": {}
+          },
+          "public": {
+            "name": "public",
+            "path": "travlr/enhanced/public",
+            "language": null,
+            "children": {
+              "about.html": {
+                "name": "about.html",
+                "path": "travlr/enhanced/public/about.html",
+                "language": "markup",
+                "children": {}
+              },
+              "contact.html": {
+                "name": "contact.html",
+                "path": "travlr/enhanced/public/contact.html",
+                "language": "markup",
+                "children": {}
+              },
+              "images": {
+                "name": "images",
+                "path": "travlr/enhanced/public/images",
+                "language": null,
+                "children": {
+                  "bg-adbox.png": {
+                    "name": "bg-adbox.png",
+                    "path": "travlr/enhanced/public/images/bg-adbox.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-body.jpg": {
+                    "name": "bg-body.jpg",
+                    "path": "travlr/enhanced/public/images/bg-body.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-box.png": {
+                    "name": "bg-box.png",
+                    "path": "travlr/enhanced/public/images/bg-box.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-foodDetail.png": {
+                    "name": "bg-foodDetail.png",
+                    "path": "travlr/enhanced/public/images/bg-foodDetail.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-foodInfos.png": {
+                    "name": "bg-foodInfos.png",
+                    "path": "travlr/enhanced/public/images/bg-foodInfos.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-menu.png": {
+                    "name": "bg-menu.png",
+                    "path": "travlr/enhanced/public/images/bg-menu.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-navigation.png": {
+                    "name": "bg-navigation.png",
+                    "path": "travlr/enhanced/public/images/bg-navigation.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-pattern.jpg": {
+                    "name": "bg-pattern.jpg",
+                    "path": "travlr/enhanced/public/images/bg-pattern.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "btn-send.png": {
+                    "name": "btn-send.png",
+                    "path": "travlr/enhanced/public/images/btn-send.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "buffet.jpg": {
+                    "name": "buffet.jpg",
+                    "path": "travlr/enhanced/public/images/buffet.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "content-box.png": {
+                    "name": "content-box.png",
+                    "path": "travlr/enhanced/public/images/content-box.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "deluxe.jpg": {
+                    "name": "deluxe.jpg",
+                    "path": "travlr/enhanced/public/images/deluxe.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "desserts.jpg": {
+                    "name": "desserts.jpg",
+                    "path": "travlr/enhanced/public/images/desserts.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "dive-site.png": {
+                    "name": "dive-site.png",
+                    "path": "travlr/enhanced/public/images/dive-site.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "first-class.jpg": {
+                    "name": "first-class.jpg",
+                    "path": "travlr/enhanced/public/images/first-class.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "food.png": {
+                    "name": "food.png",
+                    "path": "travlr/enhanced/public/images/food.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "icons.png": {
+                    "name": "icons.png",
+                    "path": "travlr/enhanced/public/images/icons.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "kayak.jpg": {
+                    "name": "kayak.jpg",
+                    "path": "travlr/enhanced/public/images/kayak.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "logo.png": {
+                    "name": "logo.png",
+                    "path": "travlr/enhanced/public/images/logo.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef1.jpg": {
+                    "name": "reef1.jpg",
+                    "path": "travlr/enhanced/public/images/reef1.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef2.jpg": {
+                    "name": "reef2.jpg",
+                    "path": "travlr/enhanced/public/images/reef2.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef3.jpg": {
+                    "name": "reef3.jpg",
+                    "path": "travlr/enhanced/public/images/reef3.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "rooms.png": {
+                    "name": "rooms.png",
+                    "path": "travlr/enhanced/public/images/rooms.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "sea-sound.jpg": {
+                    "name": "sea-sound.jpg",
+                    "path": "travlr/enhanced/public/images/sea-sound.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "seafoods.jpg": {
+                    "name": "seafoods.jpg",
+                    "path": "travlr/enhanced/public/images/seafoods.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "searchbar.png": {
+                    "name": "searchbar.png",
+                    "path": "travlr/enhanced/public/images/searchbar.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "suite.jpg": {
+                    "name": "suite.jpg",
+                    "path": "travlr/enhanced/public/images/suite.jpg",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              },
+              "index.html": {
+                "name": "index.html",
+                "path": "travlr/enhanced/public/index.html",
+                "language": "markup",
+                "children": {}
+              },
+              "meals.html": {
+                "name": "meals.html",
+                "path": "travlr/enhanced/public/meals.html",
+                "language": "markup",
+                "children": {}
+              },
+              "news.html": {
+                "name": "news.html",
+                "path": "travlr/enhanced/public/news.html",
+                "language": "markup",
+                "children": {}
+              },
+              "rooms.html": {
+                "name": "rooms.html",
+                "path": "travlr/enhanced/public/rooms.html",
+                "language": "markup",
+                "children": {}
+              },
+              "stylesheets": {
+                "name": "stylesheets",
+                "path": "travlr/enhanced/public/stylesheets",
+                "language": null,
+                "children": {
+                  "style.css": {
+                    "name": "style.css",
+                    "path": "travlr/enhanced/public/stylesheets/style.css",
+                    "language": "scss",
+                    "children": {}
+                  }
+                }
+              },
+              "travel.html": {
+                "name": "travel.html",
+                "path": "travlr/enhanced/public/travel.html",
+                "language": "markup",
+                "children": {}
+              }
+            }
+          },
+          "test.http": {
+            "name": "test.http",
+            "path": "travlr/enhanced/test.http",
+            "language": null,
+            "children": {}
+          },
+          "tsconfig.json": {
+            "name": "tsconfig.json",
+            "path": "travlr/enhanced/tsconfig.json",
+            "language": "json",
+            "children": {}
+          }
+        }
+      },
+      "original": {
+        "name": "original",
+        "path": "travlr/original",
+        "children": {
+          "README.md": {
+            "name": "README.md",
+            "path": "travlr/original/README.md",
+            "language": "markdown",
+            "children": {}
+          },
+          "app.cjs": {
+            "name": "app.cjs",
+            "path": "travlr/original/app.cjs",
+            "language": "javascript",
+            "children": {}
+          },
+          "app_admin": {
+            "name": "app_admin",
+            "path": "travlr/original/app_admin",
+            "language": null,
+            "children": {
+              ".editorconfig": {
+                "name": ".editorconfig",
+                "path": "travlr/original/app_admin/.editorconfig",
+                "language": null,
+                "children": {}
+              },
+              ".gitignore": {
+                "name": ".gitignore",
+                "path": "travlr/original/app_admin/.gitignore",
+                "language": null,
+                "children": {}
+              },
+              ".vscode": {
+                "name": ".vscode",
+                "path": "travlr/original/app_admin/.vscode",
+                "language": null,
+                "children": {
+                  "extensions.json": {
+                    "name": "extensions.json",
+                    "path": "travlr/original/app_admin/.vscode/extensions.json",
+                    "language": "json",
+                    "children": {}
+                  },
+                  "launch.json": {
+                    "name": "launch.json",
+                    "path": "travlr/original/app_admin/.vscode/launch.json",
+                    "language": "json",
+                    "children": {}
+                  },
+                  "tasks.json": {
+                    "name": "tasks.json",
+                    "path": "travlr/original/app_admin/.vscode/tasks.json",
+                    "language": "json",
+                    "children": {}
+                  }
+                }
+              },
+              "README.md": {
+                "name": "README.md",
+                "path": "travlr/original/app_admin/README.md",
+                "language": "markdown",
+                "children": {}
+              },
+              "angular.json": {
+                "name": "angular.json",
+                "path": "travlr/original/app_admin/angular.json",
+                "language": "json",
+                "children": {}
+              },
+              "package-lock.json": {
+                "name": "package-lock.json",
+                "path": "travlr/original/app_admin/package-lock.json",
+                "language": "json",
+                "children": {}
+              },
+              "package.json": {
+                "name": "package.json",
+                "path": "travlr/original/app_admin/package.json",
+                "language": "json",
+                "children": {}
+              },
+              "public": {
+                "name": "public",
+                "path": "travlr/original/app_admin/public",
+                "language": null,
+                "children": {
+                  "favicon.ico": {
+                    "name": "favicon.ico",
+                    "path": "travlr/original/app_admin/public/favicon.ico",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              },
+              "src": {
+                "name": "src",
+                "path": "travlr/original/app_admin/src",
+                "language": null,
+                "children": {
+                  "app": {
+                    "name": "app",
+                    "path": "travlr/original/app_admin/src/app",
+                    "language": null,
+                    "children": {
+                      "add-trip": {
+                        "name": "add-trip",
+                        "path": "travlr/original/app_admin/src/app/add-trip",
+                        "language": null,
+                        "children": {
+                          "add-trip.component.css": {
+                            "name": "add-trip.component.css",
+                            "path": "travlr/original/app_admin/src/app/add-trip/add-trip.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "add-trip.component.html": {
+                            "name": "add-trip.component.html",
+                            "path": "travlr/original/app_admin/src/app/add-trip/add-trip.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "add-trip.component.ts": {
+                            "name": "add-trip.component.ts",
+                            "path": "travlr/original/app_admin/src/app/add-trip/add-trip.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "app.component.css": {
+                        "name": "app.component.css",
+                        "path": "travlr/original/app_admin/src/app/app.component.css",
+                        "language": "scss",
+                        "children": {}
+                      },
+                      "app.component.html": {
+                        "name": "app.component.html",
+                        "path": "travlr/original/app_admin/src/app/app.component.html",
+                        "language": "markup",
+                        "children": {}
+                      },
+                      "app.component.ts": {
+                        "name": "app.component.ts",
+                        "path": "travlr/original/app_admin/src/app/app.component.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "app.config.ts": {
+                        "name": "app.config.ts",
+                        "path": "travlr/original/app_admin/src/app/app.config.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "app.routes.ts": {
+                        "name": "app.routes.ts",
+                        "path": "travlr/original/app_admin/src/app/app.routes.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "data": {
+                        "name": "data",
+                        "path": "travlr/original/app_admin/src/app/data",
+                        "language": null,
+                        "children": {
+                          "trips.ts": {
+                            "name": "trips.ts",
+                            "path": "travlr/original/app_admin/src/app/data/trips.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "edit-trip": {
+                        "name": "edit-trip",
+                        "path": "travlr/original/app_admin/src/app/edit-trip",
+                        "language": null,
+                        "children": {
+                          "edit-trip.component.css": {
+                            "name": "edit-trip.component.css",
+                            "path": "travlr/original/app_admin/src/app/edit-trip/edit-trip.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "edit-trip.component.html": {
+                            "name": "edit-trip.component.html",
+                            "path": "travlr/original/app_admin/src/app/edit-trip/edit-trip.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "edit-trip.component.ts": {
+                            "name": "edit-trip.component.ts",
+                            "path": "travlr/original/app_admin/src/app/edit-trip/edit-trip.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "login": {
+                        "name": "login",
+                        "path": "travlr/original/app_admin/src/app/login",
+                        "language": null,
+                        "children": {
+                          "login.component.css": {
+                            "name": "login.component.css",
+                            "path": "travlr/original/app_admin/src/app/login/login.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "login.component.html": {
+                            "name": "login.component.html",
+                            "path": "travlr/original/app_admin/src/app/login/login.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "login.component.ts": {
+                            "name": "login.component.ts",
+                            "path": "travlr/original/app_admin/src/app/login/login.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "models": {
+                        "name": "models",
+                        "path": "travlr/original/app_admin/src/app/models",
+                        "language": null,
+                        "children": {
+                          "auth-response.ts": {
+                            "name": "auth-response.ts",
+                            "path": "travlr/original/app_admin/src/app/models/auth-response.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "trip.ts": {
+                            "name": "trip.ts",
+                            "path": "travlr/original/app_admin/src/app/models/trip.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "user.ts": {
+                            "name": "user.ts",
+                            "path": "travlr/original/app_admin/src/app/models/user.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "navbar": {
+                        "name": "navbar",
+                        "path": "travlr/original/app_admin/src/app/navbar",
+                        "language": null,
+                        "children": {
+                          "navbar.component.css": {
+                            "name": "navbar.component.css",
+                            "path": "travlr/original/app_admin/src/app/navbar/navbar.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "navbar.component.html": {
+                            "name": "navbar.component.html",
+                            "path": "travlr/original/app_admin/src/app/navbar/navbar.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "navbar.component.ts": {
+                            "name": "navbar.component.ts",
+                            "path": "travlr/original/app_admin/src/app/navbar/navbar.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "services": {
+                        "name": "services",
+                        "path": "travlr/original/app_admin/src/app/services",
+                        "language": null,
+                        "children": {
+                          "authentication.service.ts": {
+                            "name": "authentication.service.ts",
+                            "path": "travlr/original/app_admin/src/app/services/authentication.service.ts",
+                            "language": "typescript",
+                            "children": {}
+                          },
+                          "trip-data.service.ts": {
+                            "name": "trip-data.service.ts",
+                            "path": "travlr/original/app_admin/src/app/services/trip-data.service.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "storage.ts": {
+                        "name": "storage.ts",
+                        "path": "travlr/original/app_admin/src/app/storage.ts",
+                        "language": "typescript",
+                        "children": {}
+                      },
+                      "trip-card": {
+                        "name": "trip-card",
+                        "path": "travlr/original/app_admin/src/app/trip-card",
+                        "language": null,
+                        "children": {
+                          "trip-card.component.css": {
+                            "name": "trip-card.component.css",
+                            "path": "travlr/original/app_admin/src/app/trip-card/trip-card.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "trip-card.component.html": {
+                            "name": "trip-card.component.html",
+                            "path": "travlr/original/app_admin/src/app/trip-card/trip-card.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "trip-card.component.ts": {
+                            "name": "trip-card.component.ts",
+                            "path": "travlr/original/app_admin/src/app/trip-card/trip-card.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "trip-listing": {
+                        "name": "trip-listing",
+                        "path": "travlr/original/app_admin/src/app/trip-listing",
+                        "language": null,
+                        "children": {
+                          "trip-listing.component.css": {
+                            "name": "trip-listing.component.css",
+                            "path": "travlr/original/app_admin/src/app/trip-listing/trip-listing.component.css",
+                            "language": "scss",
+                            "children": {}
+                          },
+                          "trip-listing.component.html": {
+                            "name": "trip-listing.component.html",
+                            "path": "travlr/original/app_admin/src/app/trip-listing/trip-listing.component.html",
+                            "language": "markup",
+                            "children": {}
+                          },
+                          "trip-listing.component.ts": {
+                            "name": "trip-listing.component.ts",
+                            "path": "travlr/original/app_admin/src/app/trip-listing/trip-listing.component.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "utils": {
+                        "name": "utils",
+                        "path": "travlr/original/app_admin/src/app/utils",
+                        "language": null,
+                        "children": {
+                          "jwt.interceptor.ts": {
+                            "name": "jwt.interceptor.ts",
+                            "path": "travlr/original/app_admin/src/app/utils/jwt.interceptor.ts",
+                            "language": "typescript",
+                            "children": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "assets": {
+                    "name": "assets",
+                    "path": "travlr/original/app_admin/src/assets",
+                    "language": null,
+                    "children": {
+                      "css": {
+                        "name": "css",
+                        "path": "travlr/original/app_admin/src/assets/css",
+                        "language": null,
+                        "children": {
+                          "styles.css": {
+                            "name": "styles.css",
+                            "path": "travlr/original/app_admin/src/assets/css/styles.css",
+                            "language": "scss",
+                            "children": {}
+                          }
+                        }
+                      },
+                      "images": {
+                        "name": "images",
+                        "path": "travlr/original/app_admin/src/assets/images",
+                        "language": null,
+                        "children": {
+                          "bg-adbox.png": {
+                            "name": "bg-adbox.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-adbox.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-body.jpg": {
+                            "name": "bg-body.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-body.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-box.png": {
+                            "name": "bg-box.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-box.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-foodDetail.png": {
+                            "name": "bg-foodDetail.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-foodDetail.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-foodInfos.png": {
+                            "name": "bg-foodInfos.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-foodInfos.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-menu.png": {
+                            "name": "bg-menu.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-menu.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-navigation.png": {
+                            "name": "bg-navigation.png",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-navigation.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "bg-pattern.jpg": {
+                            "name": "bg-pattern.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/bg-pattern.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "btn-send.png": {
+                            "name": "btn-send.png",
+                            "path": "travlr/original/app_admin/src/assets/images/btn-send.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "buffet.jpg": {
+                            "name": "buffet.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/buffet.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "content-box.png": {
+                            "name": "content-box.png",
+                            "path": "travlr/original/app_admin/src/assets/images/content-box.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "deluxe.jpg": {
+                            "name": "deluxe.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/deluxe.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "desserts.jpg": {
+                            "name": "desserts.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/desserts.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "dive-site.png": {
+                            "name": "dive-site.png",
+                            "path": "travlr/original/app_admin/src/assets/images/dive-site.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "first-class.jpg": {
+                            "name": "first-class.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/first-class.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "food.png": {
+                            "name": "food.png",
+                            "path": "travlr/original/app_admin/src/assets/images/food.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "icons.png": {
+                            "name": "icons.png",
+                            "path": "travlr/original/app_admin/src/assets/images/icons.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "kayak.jpg": {
+                            "name": "kayak.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/kayak.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "logo.png": {
+                            "name": "logo.png",
+                            "path": "travlr/original/app_admin/src/assets/images/logo.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef1.jpg": {
+                            "name": "reef1.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/reef1.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef2.jpg": {
+                            "name": "reef2.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/reef2.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "reef3.jpg": {
+                            "name": "reef3.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/reef3.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "rooms.png": {
+                            "name": "rooms.png",
+                            "path": "travlr/original/app_admin/src/assets/images/rooms.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "sea-sound.jpg": {
+                            "name": "sea-sound.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/sea-sound.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "seafoods.jpg": {
+                            "name": "seafoods.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/seafoods.jpg",
+                            "language": null,
+                            "children": {}
+                          },
+                          "searchbar.png": {
+                            "name": "searchbar.png",
+                            "path": "travlr/original/app_admin/src/assets/images/searchbar.png",
+                            "language": null,
+                            "children": {}
+                          },
+                          "suite.jpg": {
+                            "name": "suite.jpg",
+                            "path": "travlr/original/app_admin/src/assets/images/suite.jpg",
+                            "language": null,
+                            "children": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "index.html": {
+                    "name": "index.html",
+                    "path": "travlr/original/app_admin/src/index.html",
+                    "language": "markup",
+                    "children": {}
+                  },
+                  "main.ts": {
+                    "name": "main.ts",
+                    "path": "travlr/original/app_admin/src/main.ts",
+                    "language": "typescript",
+                    "children": {}
+                  }
+                }
+              },
+              "tsconfig.app.json": {
+                "name": "tsconfig.app.json",
+                "path": "travlr/original/app_admin/tsconfig.app.json",
+                "language": "json",
+                "children": {}
+              },
+              "tsconfig.json": {
+                "name": "tsconfig.json",
+                "path": "travlr/original/app_admin/tsconfig.json",
+                "language": "json",
+                "children": {}
+              },
+              "tsconfig.spec.json": {
+                "name": "tsconfig.spec.json",
+                "path": "travlr/original/app_admin/tsconfig.spec.json",
+                "language": "json",
+                "children": {}
+              }
+            }
+          },
+          "app_api": {
+            "name": "app_api",
+            "path": "travlr/original/app_api",
+            "language": null,
+            "children": {
+              "config": {
+                "name": "config",
+                "path": "travlr/original/app_api/config",
+                "language": null,
+                "children": {
+                  "passport.cjs": {
+                    "name": "passport.cjs",
+                    "path": "travlr/original/app_api/config/passport.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "controllers": {
+                "name": "controllers",
+                "path": "travlr/original/app_api/controllers",
+                "language": null,
+                "children": {
+                  "authentication.cjs": {
+                    "name": "authentication.cjs",
+                    "path": "travlr/original/app_api/controllers/authentication.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "trips.cjs": {
+                    "name": "trips.cjs",
+                    "path": "travlr/original/app_api/controllers/trips.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "models": {
+                "name": "models",
+                "path": "travlr/original/app_api/models",
+                "language": null,
+                "children": {
+                  "db.cjs": {
+                    "name": "db.cjs",
+                    "path": "travlr/original/app_api/models/db.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "seed.cjs": {
+                    "name": "seed.cjs",
+                    "path": "travlr/original/app_api/models/seed.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travlr.cjs": {
+                    "name": "travlr.cjs",
+                    "path": "travlr/original/app_api/models/travlr.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "user.cjs": {
+                    "name": "user.cjs",
+                    "path": "travlr/original/app_api/models/user.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "routes": {
+                "name": "routes",
+                "path": "travlr/original/app_api/routes",
+                "language": null,
+                "children": {
+                  "index.cjs": {
+                    "name": "index.cjs",
+                    "path": "travlr/original/app_api/routes/index.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              }
+            }
+          },
+          "app_server": {
+            "name": "app_server",
+            "path": "travlr/original/app_server",
+            "language": null,
+            "children": {
+              "controllers": {
+                "name": "controllers",
+                "path": "travlr/original/app_server/controllers",
+                "language": null,
+                "children": {
+                  "main.cjs": {
+                    "name": "main.cjs",
+                    "path": "travlr/original/app_server/controllers/main.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travel.cjs": {
+                    "name": "travel.cjs",
+                    "path": "travlr/original/app_server/controllers/travel.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "routes": {
+                "name": "routes",
+                "path": "travlr/original/app_server/routes",
+                "language": null,
+                "children": {
+                  "index.cjs": {
+                    "name": "index.cjs",
+                    "path": "travlr/original/app_server/routes/index.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "travel.cjs": {
+                    "name": "travel.cjs",
+                    "path": "travlr/original/app_server/routes/travel.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  },
+                  "users.cjs": {
+                    "name": "users.cjs",
+                    "path": "travlr/original/app_server/routes/users.cjs",
+                    "language": "javascript",
+                    "children": {}
+                  }
+                }
+              },
+              "views": {
+                "name": "views",
+                "path": "travlr/original/app_server/views",
+                "language": null,
+                "children": {
+                  "error.hbs": {
+                    "name": "error.hbs",
+                    "path": "travlr/original/app_server/views/error.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "index.hbs": {
+                    "name": "index.hbs",
+                    "path": "travlr/original/app_server/views/index.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "layout.hbs": {
+                    "name": "layout.hbs",
+                    "path": "travlr/original/app_server/views/layout.hbs",
+                    "language": null,
+                    "children": {}
+                  },
+                  "partials": {
+                    "name": "partials",
+                    "path": "travlr/original/app_server/views/partials",
+                    "language": null,
+                    "children": {
+                      "footer.hbs": {
+                        "name": "footer.hbs",
+                        "path": "travlr/original/app_server/views/partials/footer.hbs",
+                        "language": null,
+                        "children": {}
+                      },
+                      "header.hbs": {
+                        "name": "header.hbs",
+                        "path": "travlr/original/app_server/views/partials/header.hbs",
+                        "language": null,
+                        "children": {}
+                      }
+                    }
+                  },
+                  "travel.hbs": {
+                    "name": "travel.hbs",
+                    "path": "travlr/original/app_server/views/travel.hbs",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              }
+            }
+          },
+          "bin": {
+            "name": "bin",
+            "path": "travlr/original/bin",
+            "language": null,
+            "children": {
+              "www": {
+                "name": "www",
+                "path": "travlr/original/bin/www",
+                "language": null,
+                "children": {}
+              }
+            }
+          },
+          "data": {
+            "name": "data",
+            "path": "travlr/original/data",
+            "language": null,
+            "children": {
+              "trips.json": {
+                "name": "trips.json",
+                "path": "travlr/original/data/trips.json",
+                "language": "json",
+                "children": {}
+              }
+            }
+          },
+          "docker-compose.yaml": {
+            "name": "docker-compose.yaml",
+            "path": "travlr/original/docker-compose.yaml",
+            "language": null,
+            "children": {}
+          },
+          "global.d.ts": {
+            "name": "global.d.ts",
+            "path": "travlr/original/global.d.ts",
+            "language": "typescript",
+            "children": {}
+          },
+          "package-lock.json": {
+            "name": "package-lock.json",
+            "path": "travlr/original/package-lock.json",
+            "language": "json",
+            "children": {}
+          },
+          "package.json": {
+            "name": "package.json",
+            "path": "travlr/original/package.json",
+            "language": "json",
+            "children": {}
+          },
+          "public": {
+            "name": "public",
+            "path": "travlr/original/public",
+            "language": null,
+            "children": {
+              "about.html": {
+                "name": "about.html",
+                "path": "travlr/original/public/about.html",
+                "language": "markup",
+                "children": {}
+              },
+              "contact.html": {
+                "name": "contact.html",
+                "path": "travlr/original/public/contact.html",
+                "language": "markup",
+                "children": {}
+              },
+              "images": {
+                "name": "images",
+                "path": "travlr/original/public/images",
+                "language": null,
+                "children": {
+                  "bg-adbox.png": {
+                    "name": "bg-adbox.png",
+                    "path": "travlr/original/public/images/bg-adbox.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-body.jpg": {
+                    "name": "bg-body.jpg",
+                    "path": "travlr/original/public/images/bg-body.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-box.png": {
+                    "name": "bg-box.png",
+                    "path": "travlr/original/public/images/bg-box.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-foodDetail.png": {
+                    "name": "bg-foodDetail.png",
+                    "path": "travlr/original/public/images/bg-foodDetail.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-foodInfos.png": {
+                    "name": "bg-foodInfos.png",
+                    "path": "travlr/original/public/images/bg-foodInfos.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-menu.png": {
+                    "name": "bg-menu.png",
+                    "path": "travlr/original/public/images/bg-menu.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-navigation.png": {
+                    "name": "bg-navigation.png",
+                    "path": "travlr/original/public/images/bg-navigation.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "bg-pattern.jpg": {
+                    "name": "bg-pattern.jpg",
+                    "path": "travlr/original/public/images/bg-pattern.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "btn-send.png": {
+                    "name": "btn-send.png",
+                    "path": "travlr/original/public/images/btn-send.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "buffet.jpg": {
+                    "name": "buffet.jpg",
+                    "path": "travlr/original/public/images/buffet.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "content-box.png": {
+                    "name": "content-box.png",
+                    "path": "travlr/original/public/images/content-box.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "deluxe.jpg": {
+                    "name": "deluxe.jpg",
+                    "path": "travlr/original/public/images/deluxe.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "desserts.jpg": {
+                    "name": "desserts.jpg",
+                    "path": "travlr/original/public/images/desserts.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "dive-site.png": {
+                    "name": "dive-site.png",
+                    "path": "travlr/original/public/images/dive-site.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "first-class.jpg": {
+                    "name": "first-class.jpg",
+                    "path": "travlr/original/public/images/first-class.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "food.png": {
+                    "name": "food.png",
+                    "path": "travlr/original/public/images/food.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "icons.png": {
+                    "name": "icons.png",
+                    "path": "travlr/original/public/images/icons.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "kayak.jpg": {
+                    "name": "kayak.jpg",
+                    "path": "travlr/original/public/images/kayak.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "logo.png": {
+                    "name": "logo.png",
+                    "path": "travlr/original/public/images/logo.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef1.jpg": {
+                    "name": "reef1.jpg",
+                    "path": "travlr/original/public/images/reef1.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef2.jpg": {
+                    "name": "reef2.jpg",
+                    "path": "travlr/original/public/images/reef2.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "reef3.jpg": {
+                    "name": "reef3.jpg",
+                    "path": "travlr/original/public/images/reef3.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "rooms.png": {
+                    "name": "rooms.png",
+                    "path": "travlr/original/public/images/rooms.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "sea-sound.jpg": {
+                    "name": "sea-sound.jpg",
+                    "path": "travlr/original/public/images/sea-sound.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "seafoods.jpg": {
+                    "name": "seafoods.jpg",
+                    "path": "travlr/original/public/images/seafoods.jpg",
+                    "language": null,
+                    "children": {}
+                  },
+                  "searchbar.png": {
+                    "name": "searchbar.png",
+                    "path": "travlr/original/public/images/searchbar.png",
+                    "language": null,
+                    "children": {}
+                  },
+                  "suite.jpg": {
+                    "name": "suite.jpg",
+                    "path": "travlr/original/public/images/suite.jpg",
+                    "language": null,
+                    "children": {}
+                  }
+                }
+              },
+              "index.html": {
+                "name": "index.html",
+                "path": "travlr/original/public/index.html",
+                "language": "markup",
+                "children": {}
+              },
+              "meals.html": {
+                "name": "meals.html",
+                "path": "travlr/original/public/meals.html",
+                "language": "markup",
+                "children": {}
+              },
+              "news.html": {
+                "name": "news.html",
+                "path": "travlr/original/public/news.html",
+                "language": "markup",
+                "children": {}
+              },
+              "rooms.html": {
+                "name": "rooms.html",
+                "path": "travlr/original/public/rooms.html",
+                "language": "markup",
+                "children": {}
+              },
+              "stylesheets": {
+                "name": "stylesheets",
+                "path": "travlr/original/public/stylesheets",
+                "language": null,
+                "children": {
+                  "style.css": {
+                    "name": "style.css",
+                    "path": "travlr/original/public/stylesheets/style.css",
+                    "language": "scss",
+                    "children": {}
+                  }
+                }
+              },
+              "travel.html": {
+                "name": "travel.html",
+                "path": "travlr/original/public/travel.html",
+                "language": "markup",
+                "children": {}
+              }
+            }
+          },
+          "test.http": {
+            "name": "test.http",
+            "path": "travlr/original/test.http",
+            "language": null,
+            "children": {}
+          },
+          "tsconfig.json": {
+            "name": "tsconfig.json",
+            "path": "travlr/original/tsconfig.json",
+            "language": "json",
+            "children": {}
+          }
+        }
+      }
+    }
+  }
+}

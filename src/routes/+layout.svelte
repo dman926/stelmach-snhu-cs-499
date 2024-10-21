@@ -1,13 +1,15 @@
 <script>
 	import { page } from '$app/stores';
 	import { ModeWatcher } from 'mode-watcher';
+	import 'prismjs/themes/prism.css';
+	
 	import LightSwitch from '@/components/light-switch.svelte';
 	import SideNav from '@/components/side-nav.svelte';
 	import '../app.pcss';
 </script>
 
 <svelte:head>
-	<title>Stelmach 499 Portfolio</title>
+	<title>Stelmach Computer Science Capstone Portfolio</title>
 </svelte:head>
 
 <ModeWatcher />

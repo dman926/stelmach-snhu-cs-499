@@ -1,96 +1,65 @@
-<!-- TODO -->
+<script lang="ts">
+	import { base } from '$app/paths';
+
+	import TravlrHeader from '@/components/headers/travlr-header.svelte';
+	import CodeViewer from '@/components/code-viewer.svelte';
+	import { files } from '@/components/code-file';
+</script>
+
 <h1 class="text-2xl text-center">Software Design and Engineering</h1>
-<h2 class="text-xl text-center">Artifact 1: Animal Shelter Library and Web Dashboard</h2>
+<h2 class="text-xl text-center underline" id="animal-shelter">
+	Artifact 1: Animal Shelter Library and Web Dashboard
+</h2>
+<img
+	class="mx-auto"
+	src={`${base}/Grazioso Salvare Logo.png`}
+	alt="Grazioso Salvare Logo"
+	width="200"
+/>
 <p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate augue enim, facilisis
-	interdum orci vulputate in. Donec ornare sed libero nec scelerisque. Aenean varius lacus a mauris
-	mollis, a tincidunt odio varius. Donec commodo arcu vehicula interdum consequat. Nunc sagittis ut
-	lacus sed ullamcorper. Praesent tellus mauris, bibendum ac velit vitae, pretium varius velit. Duis
-	a sem eu turpis mattis gravida sit amet suscipit enim. Suspendisse accumsan, diam vitae consequat
-	auctor, eros risus consequat mauris, id tincidunt tortor nisi et mi. Quisque ut risus non tellus
-	pulvinar dapibus in et nisl. Proin in semper justo. Pellentesque vitae erat non velit euismod
-	feugiat.
+	&emsp;This artifact is a simple Python create/read/update/delete (CRUD) library for MongoDB
+	wrapped with a Jupyter notebook web dashboard. The web dashboard did not include any
+	authentication or security measures, and the entire project was housed in a single Python and
+	Jupyter notebook.
+</p>
+{#await files then { 'animal-shelter': animalShelterFiles }}
+	<CodeViewer files={animalShelterFiles} />
+{/await}
+<p>
+	&emsp;The artifact was enhanced by recreating the application with the Flask framework. This
+	refactor split up the files into its respective directories and files to improve organization.
+	This makes future development and debugging easier by providing smaller and more manageable files
+	instead of the original large and unweildy Jupyter notebook.
 </p>
 <p>
-	Pellentesque sollicitudin, diam et hendrerit pulvinar, quam nunc tempor diam, quis scelerisque
-	eros ex in enim. Aliquam condimentum euismod eros eu dapibus. Sed fringilla, lorem sit amet
-	condimentum eleifend, metus mauris viverra orci, non aliquet erat tellus ut mauris. Fusce id
-	viverra nisl, quis congue dui. Fusce at sem ac lacus lacinia semper. Sed malesuada, dui nec
-	ullamcorper facilisis, libero sapien suscipit purus, vitae fringilla urna massa sit amet erat.
-	Suspendisse malesuada, odio eu vestibulum tincidunt, ex est semper dolor, tincidunt aliquam tellus
-	dui pretium nulla. Suspendisse turpis nisi, efficitur non pharetra vel, fermentum nec lectus.
-	Integer ante quam, sagittis non odio non, ultrices interdum risus. Morbi pulvinar sapien non risus
-	mattis varius. Ut at quam ut elit malesuada facilisis. Vivamus imperdiet felis nisl, a interdum
-	purus tempus quis.
+	&emsp;The artifact was also enhanced by adding authentication capabilities to the web dashboard.
+	This prevents unauthorized users from modifying the database. This is important because the
+	artifact is a web-based application, and so will be accessible to anyone with an internet
+	connection, so it is important to authenticate the user before allowing them access to
+	administrator-level functions.
 </p>
 <p>
-	Etiam ornare massa tortor, nec sagittis lectus pharetra a. Vivamus eu nisl enim. Proin aliquet
-	vestibulum metus, in dapibus augue interdum a. Etiam rhoncus dolor eget consectetur scelerisque.
-	Fusce velit nisl, fermentum vitae viverra eu, pellentesque non mauris. Nulla facilisi.
-	Pellentesque ac rutrum turpis. Mauris finibus sodales augue vitae commodo. Cras gravida massa eget
-	consectetur fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-	ac turpis egestas. Ut nec purus eros. Sed quis dignissim magna. Vivamus nec efficitur purus, nec
-	vulputate nunc. Vestibulum malesuada finibus tristique.
+	&emsp;Finally, the artifact was enhanced by changing from a MongoDB database to an SQL database. I
+	used SQLAlchemy as the object-relational mapper (ORM) to simplify the database query code. I made
+	this change because the data that exists in this application is well-defined with consistent
+	schemas, and so can be easily used within a table-based SQL database, which generally produces
+	faster query capabilities.
+</p>
+<br />
+<TravlrHeader i={1} />
+<p>
+	&emsp;This artifact is a MongoDB/Express/Angular/Node (MEAN) web application to facilitate a
+	travel agency. The project was split into three sections, with two different webservers running,
+	one for Express (API layer) and one for the Angular application (UI layer).
 </p>
 <p>
-	Duis interdum lacus a dui auctor imperdiet. Donec nec semper neque. Vestibulum id est sed ante
-	suscipit sodales. Integer ligula sapien, condimentum a mauris at, dignissim aliquam metus. Nunc
-	venenatis urna sit amet finibus euismod. Vestibulum efficitur est ut augue varius, posuere blandit
-	mauris facilisis. Aliquam ornare dignissim mi vel fringilla. Curabitur sed magna ac nisi faucibus
-	vehicula. Duis ac posuere eros, ut elementum orci.
-</p>
-<p>
-	Nullam ligula mauris, imperdiet eu dolor in, bibendum hendrerit urna. Etiam sollicitudin venenatis
-	eros sit amet luctus. Quisque erat libero, varius nec malesuada pretium, condimentum interdum
-	tortor. Suspendisse sit amet orci sit amet sem blandit aliquam. Vestibulum accumsan tincidunt
-	malesuada. Vestibulum fringilla massa ut mi vestibulum, vitae laoreet dolor feugiat. Praesent
-	congue lacus eget odio varius, at mattis dolor finibus. Suspendisse pharetra nisi sit amet sodales
-	laoreet. Phasellus sollicitudin sagittis ligula at iaculis. Sed tristique enim vitae urna
-	sollicitudin, sed euismod urna pharetra.
-</p>
-<p>
-	Aliquam posuere eleifend diam eu fringilla. Pellentesque ut odio quam. Quisque volutpat lectus
-	convallis, ullamcorper tellus quis, molestie risus. Etiam sed erat blandit diam rutrum
-	ullamcorper. Cras viverra sit amet massa vel dignissim. Curabitur aliquam, nisl id mattis porta,
-	purus neque efficitur eros, vitae bibendum dolor metus ac urna. In hac habitasse platea dictumst.
-	Phasellus justo odio, porta ac ultrices vel, dictum a risus. Pellentesque nisl augue, lacinia id
-	faucibus et, sollicitudin euismod dolor. Donec cursus scelerisque ultrices. Sed dapibus sem lorem,
-	id hendrerit dui mollis dictum. Sed at condimentum tellus. Aliquam mattis sed nulla lobortis
-	laoreet. Etiam cursus hendrerit nibh, et aliquam ante.
-</p>
-<p>
-	Duis tempus mauris ac luctus venenatis. Aliquam vel venenatis metus. Mauris molestie auctor quam
-	ut bibendum. Quisque erat turpis, sollicitudin eget ante nec, accumsan ultricies dui. Donec
-	sagittis ultrices nulla, a facilisis lectus ultricies eget. Donec tincidunt ac ex eu aliquam. Nunc
-	tempus iaculis metus, at aliquet massa porttitor ut. Aliquam id turpis sit amet massa rutrum
-	blandit ac vel urna. Nulla et lacinia ligula, nec feugiat dui. Maecenas congue pretium ligula vel
-	interdum. Integer eget iaculis risus. Ut malesuada arcu at ante fringilla aliquam at ut metus.
-</p>
-<p>
-	Nullam quis imperdiet felis. Sed ac erat sit amet turpis auctor pharetra. Curabitur id scelerisque
-	dolor. Ut porta odio leo, id venenatis enim rhoncus volutpat. Etiam leo est, gravida quis nibh eu,
-	molestie pulvinar quam. Nunc viverra, elit at congue accumsan, leo leo volutpat dolor, id rhoncus
-	justo justo vitae nulla. Quisque lacinia sagittis ex, sed faucibus justo iaculis vel. Duis
-	sollicitudin nunc id imperdiet aliquam. Nullam rutrum ipsum vel lacus tincidunt sagittis a id
-	ligula.
-</p>
-<p>
-	Maecenas tincidunt, ipsum sollicitudin finibus sodales, lectus massa auctor quam, sed eleifend
-	eros orci eget arcu. Sed at dictum felis. Phasellus sem metus, faucibus quis rhoncus sit amet,
-	rhoncus ultrices nibh. Sed a lacus lacus. Curabitur tortor turpis, fringilla a elementum et,
-	rhoncus condimentum tellus. Fusce ut scelerisque libero, et dictum nulla. Pellentesque habitant
-	morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vehicula dui eget
-	enim fringilla, a condimentum sem consequat. Quisque risus mauris, auctor vitae nibh vel,
-	fringilla rutrum nisi. Ut in placerat ipsum. Ut dictum viverra tortor vitae dapibus. Nulla dictum,
-	turpis vitae blandit volutpat, magna eros elementum justo, a ultrices lorem urna a turpis. Lorem
-	ipsum dolor sit amet, consectetur adipiscing elit.
-</p>
-<p>
-	Nullam at volutpat mi. Cras hendrerit orci et nisl lobortis luctus. Sed maximus consequat metus,
-	in feugiat nulla fermentum id. Nam a tempor quam. Morbi eu fringilla mauris. Pellentesque vel
-	posuere neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed arcu ut augue
-	lobortis facilisis at nec augue. Vivamus scelerisque augue non sem dapibus sodales. Aliquam
-	dignissim eros eu augue sagittis, a porttitor dui sodales. Praesent viverra leo non urna
-	efficitur, et convallis lorem congue. Vestibulum a erat placerat, fermentum erat gravida, vehicula
-	lectus.
+	&emsp;The artifact was enhanced by recreating the application with the SvelteKit framework. This
+	refactor allows for several things. Most importantly, it allows for a single running webserver.
+	This provides a single application to run, making deployments and testing of the application more
+	efficient. Another important feature is server-side rendering. A major downfall of single-page
+	applications is the lack of server-side rendering. The lack of server-side rendering makes it more
+	difficult for web-crawlers, such as those from search engines, to crawl the web application to
+	provide meaningful data, which is detrimental to search engine optimization. By using server-side
+	rendering, the web application can be indexed by search engines, allowing for more meaningful
+	search results, enhancing the applications visibility.
 </p>

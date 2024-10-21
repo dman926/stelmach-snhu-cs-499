@@ -1,0 +1,16 @@
+<div class="box">
+	<div>
+		<div class="body">
+			<h1>Travel</h1>
+			<ul id="sites">
+				{{#each trips}}
+				<li>
+					<a href="/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
+					<h2><a href="/api/trips/{{this.code}}">{{this.name}}</a></h2>
+					{{{this.description}}}
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+</div>

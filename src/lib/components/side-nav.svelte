@@ -10,9 +10,9 @@
 	const routes: Route[] = [
 		{ anchor: 'self-assessment', title: 'Self-Assessment' },
 		{ anchor: 'code-review', title: 'Code Review' },
-		{ anchor: 'cat-1', title: 'Category 1' },
-		{ anchor: 'cat-2', title: 'Category 2' },
-		{ anchor: 'cat-3', title: 'Category 3' }
+		{ anchor: 'cat-1', title: 'Software Design and Engineering' },
+		{ anchor: 'cat-2', title: 'Algorithms and Data Structures' },
+		{ anchor: 'cat-3', title: 'Databases' }
 	].map(({ anchor, title }) => {
 		return {
 			title,

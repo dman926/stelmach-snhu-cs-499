@@ -1,9 +1,10 @@
 <script>
-	import Artifact_1 from '@/page-parts/artifact-1.svelte';
-	import Artifact_2 from '@/page-parts/artifact-2.svelte';
-	import Artifact_3 from '@/page-parts/artifact-3.svelte';
-	import CodeReview from '@/page-parts/code-review.svelte';
 	import SelfAssessment from '@/page-parts/self-assessment.svelte';
+	import CodeReview from '@/page-parts/code-review.svelte';
+
+	const artifact_1 = import('@/page-parts/artifact-1.svelte');
+	const artifact_2 = import('@/page-parts/artifact-2.svelte');
+	const artifact_3 = import('@/page-parts/artifact-3.svelte');
 </script>
 
 <span>
@@ -20,15 +21,21 @@
 </section>
 <hr />
 <section id="cat-1">
-	<Artifact_1 />
+	{#await artifact_1 then { default: Artifact_1 }}
+		<Artifact_1 />
+	{/await}
 </section>
 <hr />
 <section id="cat-2">
-	<Artifact_2 />
+	{#await artifact_2 then { default: Artifact_2 }}
+		<Artifact_2 />
+	{/await}
 </section>
 <hr />
 <section id="cat-3">
-	<Artifact_3 />
+	{#await artifact_3 then { default: Artifact_3 }}
+		<Artifact_3 />
+	{/await}
 </section>
 
 <style>

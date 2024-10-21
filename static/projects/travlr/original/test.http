@@ -1,0 +1,102 @@
+GET http://127.0.0.1:3000/api/trips HTTP/1.1
+
+# Sample Response
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 1904
+# ETag: W/"770-8sL18xQMVaGV+qyAxS+ScxpSjac"
+# Date: Sat, 03 Aug 2024 05:06:18 GMT
+# Connection: close
+
+# [
+#   {
+#     "_id": "66a531f9897f10f9c3bb53d7",
+#     "code": "GALR210214",
+#     "name": "Gale Reef",
+#     "length": "4 nights / 5 days",
+#     "start": "2021-02-14T08:00:00.000Z",
+#     "resort": "Emeral Bay, 3 stars",
+#     "perPerson": "799.00",
+#     "image": "reef1.jpg",
+#     "description": "<p> Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p><p>Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem ullamcorper vitae laoreet.</p>",
+#     "__v": 0
+#   },
+#   {
+#     "_id": "66a531f9897f10f9c3bb53d8",
+#     "code": "DAWR210315",
+#     "name": "Dawson’s Reef",
+#     "length": "4 nights / 5 days",
+#     "start": "2021-03-15T08:00:00.000Z",
+#     "resort": "Blue Lagoon, 4 stars",
+#     "perPerson": "1199.00",
+#     "image": "reef2.jpg",
+#     "description": "<p>Dawson’s Reef Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet aliquet quis, tristique quis nisl. Curabitur odio lacus, blandit ut hendrerit</p><p>vulputate, vulputate at est. Morbi aliquet viverra metus eu consectetur. In lorem dui, elementum sit amet convallis ac, tincidunt vel sapien.</p>",
+#     "__v": 0
+#   },
+#   {
+#     "_id": "66a531f9897f10f9c3bb53d9",
+#     "code": "CLAR210621",
+#     "name": "Claire’s REEF",
+#     "length": "4 nights / 5 days",
+#     "start": "2021-06-21T08:00:00.000Z",
+#     "resort": "Coral Sands, 5 stars",
+#     "perPerson": "1999.00",
+#     "image": "reef3.jpg",
+#     "description": "<p>Claire’s REEF Donec sed felis risus. Nulla facilisi. Donec a orci tellus, et auctor odio. Fusce ac orci nibh, quis semper arcu. Cras orci neque, euismod et accumsan ac, sagittis molestie lorem. Proin odio sapien, elementum at tempor non.</p><p>Vulputate eget libero. In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis.</p>",
+#     "__v": 0
+#   }
+# ]
+
+###
+
+GET http://127.0.0.1:3000/api/trips/GALR210214 HTTP/1.1
+
+# Sample Response
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 605
+# ETag: W/"25d-vdx/kGxsP0H3cHoq9OGm19OPrFY"
+# Date: Sat, 03 Aug 2024 05:10:04 GMT
+# Connection: close
+
+# [
+#   {
+#     "_id": "66a531f9897f10f9c3bb53d7",
+#     "code": "GALR210214",
+#     "name": "Gale Reef",
+#     "length": "4 nights / 5 days",
+#     "start": "2021-02-14T08:00:00.000Z",
+#     "resort": "Emeral Bay, 3 stars",
+#     "perPerson": "799.00",
+#     "image": "reef1.jpg",
+#     "description": "<p> Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p><p>Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem ullamcorper vitae laoreet.</p>",
+#     "__v": 0
+#   }
+# ]
+
+###
+
+POST http://127.0.0.1:3000/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Dennis James Stelmach",
+  "email": "dennisjames.stelmach@snhu.edu",
+  "password": "hunter2"
+}
+
+# Sample Response
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Access-Control-Allow-Origin: http://localhost:4200
+# Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+# Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 269
+# ETag: W/"10d-YvhETs3+yLxQ3fJ6ygnSV4IaYBU"
+# Date: Sun, 18 Aug 2024 20:56:40 GMT
+# Connection: close
+
+# "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmMyNjAwODM5OWIwZGU0MDFjMzU4YWMiLCJlbWFpbCI6ImRlbm5pc2phbWVzLnN0ZWxtYWNoQHNuaHUuZWR1IiwibmFtZSI6IkRlbm5pcyBKYW1lcyBTdGVsbWFjaCIsImlhdCI6MTcyNDAxNDYwMCwiZXhwIjoxNzI0MDE4MjAwfQ.QUT6VJdZTl9mecfjjb9rVOfC-2jESpAZ6QBYc2RjSzA"
