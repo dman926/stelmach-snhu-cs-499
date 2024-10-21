@@ -22,6 +22,11 @@
 		<a class="underline" href={`${base}/#cat-1`}>
 			Artifact 1: Animal Shelter Library and Web Dashboard
 		</a>
+		<a
+			class="underline"
+			href="https://github.com/dman926/stelmach-snhu-cs-499/tree/main/static/projects/animal-shelter"
+			>View code on GitHub</a
+		>
 		<div class="mx-auto my-4 max-w-5xl whitespace-pre-wrap rounded-xl border-2 border-primary">
 			{@html Prism.highlight(
 				`### Review Items
@@ -44,7 +49,11 @@
 	</li>
 	<li>
 		<a class="underline" href={`${base}/#cat-2`}>Artifact 2: Embedded Thermostat</a>
-
+		<a
+			class="underline"
+			href="https://github.com/dman926/stelmach-snhu-cs-499/tree/main/static/projects/embedded-thermostat"
+			>View code on GitHub</a
+		>
 		<div class="mx-auto my-4 max-w-5xl whitespace-pre-wrap rounded-xl border-2 border-primary">
 			{@html Prism.highlight(
 				`### Review Items
@@ -83,6 +92,11 @@
 				<a class="underline" href={`${base}/#travlr-3`}>Databases</a>
 			</li>
 		</ul>
+		<a
+			class="underline"
+			href="https://github.com/dman926/stelmach-snhu-cs-499/tree/main/static/projects/travlr"
+			>View code on GitHub</a
+		>
 
 		<div class="mx-auto my-4 max-w-5xl whitespace-pre-wrap rounded-xl border-2 border-primary">
 			{@html Prism.highlight(
